@@ -4,27 +4,27 @@ import { Badge } from '@/components/ui/badge';
 const steps = [
   {
     number: 1,
-    title: 'Discovery & Analysis',
-    subtitle: 'Understanding Your Business',
-    description: 'We dive deep into your business operations to identify high-impact automation opportunities and AI use cases that deliver measurable results.'
+    title: 'Discovery Call',
+    subtitle: 'Understanding Your Needs',
+    description: 'We discuss your current processes, pain points, and goals to identify the best automation opportunities for your business.'
   },
   {
     number: 2,
-    title: 'Solution Design',
-    subtitle: 'Custom Architecture Planning',
-    description: 'Our team architects a custom AI solution tailored to your specific needs, ensuring seamless integration with your existing systems and workflows.'
+    title: 'Solution Mapping',
+    subtitle: 'Planning the Workflow',
+    description: 'We map out your automation workflow, select the right tools, and design the data flow between your systems and applications.'
   },
   {
     number: 3,
-    title: 'Development & Training',
-    subtitle: 'Building Your AI Models',
-    description: 'We build and train your AI models using industry-leading frameworks and best practices, ensuring accuracy, reliability, and optimal performance.'
+    title: 'Build & Test',
+    subtitle: 'Creating Your Automation',
+    description: 'We build your workflows, configure integrations, and thoroughly test everything to ensure reliable operation before going live.'
   },
   {
     number: 4,
-    title: 'Deploy & Scale',
-    subtitle: 'Launch and Growth',
-    description: 'Launch your AI solution with confidence and scale seamlessly as your business grows, with continuous monitoring and optimization support.'
+    title: 'Launch & Support',
+    subtitle: 'Deployment and Training',
+    description: 'We deploy your automation, provide training on how it works, and offer ongoing support to optimize and expand as needed.'
   }
 ];
 

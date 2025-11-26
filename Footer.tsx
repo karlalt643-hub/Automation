@@ -7,10 +7,10 @@ export function Footer() {
         <div className="flex-1">
           <div className="flex items-center space-x-2 mb-4">
             <CircuitBoard className="w-6 h-6 text-[#D4AF37]" aria-hidden="true" />
-            <span className="text-xl font-bold text-white">NeuralSync</span>
+            <span className="text-xl font-bold text-white">AutomateFlow</span>
           </div>
           <p className="text-white/50 text-sm leading-relaxed">
-            Building the future of business automation with AI
+            Practical automation solutions for modern businesses
           </p>
         </div>
 
@@ -22,7 +22,7 @@ export function Footer() {
                 href="#"
                 className="hover:text-[#D4AF37] transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0A0A] rounded"
               >
-                AI Development
+                Workflow Automation
               </a>
             </li>
             <li>
@@ -30,7 +30,7 @@ export function Footer() {
                 href="#"
                 className="hover:text-[#D4AF37] transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#D4AF37] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0A0A0A] rounded"
               >
-                Automation
+                Chatbot Development
               </a>
             </li>
             <li>
@@ -106,7 +106,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10 pt-8 mt-8 text-center text-white/50 text-sm">
-        © 2025 NeuralSync AI. All rights reserved.
+        © 2025 AutomateFlow. All rights reserved.
       </div>
     </footer>
   );

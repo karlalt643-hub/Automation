@@ -15,19 +15,18 @@ export function HeroSection({ mounted }: HeroSectionProps) {
         <div className={`space-y-8 transition-all duration-1000 ${mounted ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
           <Badge className="bg-[#D4AF37]/10 text-[#D4AF37] border border-[#D4AF37]/30 hover:bg-[#D4AF37]/20 transition-colors duration-200">
             <Sparkles className="w-3 h-3 mr-1" aria-hidden="true" />
-            Next-Gen AI Solutions
+            Professional Automation Services
           </Badge>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-            Automate Your
+            Streamline Your Business
             <span className="block text-[#D4AF37]">
-              Future with AI
+              with Smart Automation
             </span>
           </h1>
 
           <p className="text-base md:text-lg text-white/70 leading-relaxed">
-            Transform your business with cutting-edge AI automation. We build intelligent systems that work 24/7,
-            scale infinitely, and deliver results beyond human capability.
+            We specialize in no-code and low-code automation using Make.com, Voiceflow, n8n, and Supabase. Connect your tools, automate workflows, and scale your operations efficiently.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -43,24 +42,24 @@ export function HeroSection({ mounted }: HeroSectionProps) {
               variant="outline"
               className="border-[#D4AF37]/50 text-[#D4AF37] hover:bg-[#D4AF37]/10 hover:border-[#D4AF37] text-base md:text-lg px-8 transition-all duration-200 focus-visible:ring-2 focus-visible:ring-[#D4AF37] focus-visible:ring-offset-2"
             >
-              View Case Studies
+              See Our Work
             </Button>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center sm:space-x-8 space-y-4 sm:space-y-0 pt-4">
             <div className="text-center">
-              <div className="text-2xl font-bold text-[#D4AF37]">500+</div>
-              <div className="text-xs text-white/50 uppercase">Projects Deployed</div>
+              <div className="text-2xl font-bold text-[#D4AF37]">50+</div>
+              <div className="text-xs text-white/50 uppercase">Workflows Built</div>
             </div>
             <div className="hidden sm:block h-12 w-px bg-white/10"></div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-[#D4AF37]">98%</div>
+              <div className="text-2xl font-bold text-[#D4AF37]">95%</div>
               <div className="text-xs text-white/50 uppercase">Client Satisfaction</div>
             </div>
             <div className="hidden sm:block h-12 w-px bg-white/10"></div>
             <div className="text-center">
               <div className="text-2xl font-bold text-[#D4AF37]">24/7</div>
-              <div className="text-xs text-white/50 uppercase">AI Operations</div>
+              <div className="text-xs text-white/50 uppercase">Automated Operations</div>
             </div>
           </div>
         </div>

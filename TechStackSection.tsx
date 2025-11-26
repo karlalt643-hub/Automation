@@ -3,14 +3,14 @@ import { Badge } from '@/components/ui/badge';
 import { Cpu } from 'lucide-react';
 
 const technologies = [
-  { name: 'TensorFlow', category: 'ML Framework' },
-  { name: 'PyTorch', category: 'Deep Learning' },
-  { name: 'OpenAI GPT', category: 'LLM' },
-  { name: 'LangChain', category: 'AI Orchestration' },
-  { name: 'Kubernetes', category: 'Orchestration' },
-  { name: 'Docker', category: 'Containerization' },
-  { name: 'AWS', category: 'Cloud' },
-  { name: 'Azure AI', category: 'Cloud AI' },
+  { name: 'Make.com', category: 'Automation' },
+  { name: 'Voiceflow', category: 'Chatbot Builder' },
+  { name: 'n8n', category: 'Workflow Automation' },
+  { name: 'Supabase', category: 'Backend Platform' },
+  { name: 'Airtable', category: 'Database' },
+  { name: 'Zapier', category: 'Integration' },
+  { name: 'Stripe', category: 'Payments' },
+  { name: 'Twilio', category: 'Communications' },
 ];
 
 export function TechStackSection() {
@@ -18,12 +18,12 @@ export function TechStackSection() {
     <section id="tech" className="container mx-auto px-6 py-24">
       <div className="text-center mb-16">
         <Badge className="bg-[#D4AF37]/10 text-[#D4AF37] border border-[#D4AF37]/30 mb-4">
-          Technology Stack
+          Our Tools
         </Badge>
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">
-          Built with
+          Powered by
           <span className="block text-[#D4AF37]">
-            Cutting-Edge Tech
+            Proven Platforms
           </span>
         </h2>
       </div>

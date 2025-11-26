@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NeuralSync AI - AI Automation Agency',
-  description: 'Transform your business with cutting-edge AI automation. We build intelligent systems that work 24/7, scale infinitely, and deliver results beyond human capability.',
+  title: 'AutomateFlow - Business Automation Services',
+  description: 'Professional automation services using Make.com, Voiceflow, n8n, and Supabase. We help businesses streamline workflows, build chatbots, and integrate systems efficiently.',
 };
 
 export default function RootLayout({

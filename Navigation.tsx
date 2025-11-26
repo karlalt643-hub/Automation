@@ -18,7 +18,7 @@ export function Navigation() {
             </div>
           </div>
           <span className="text-2xl font-bold text-[#D4AF37]">
-            NeuralSync
+            AutomateFlow
           </span>
         </div>
 

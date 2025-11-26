@@ -8,23 +8,23 @@ export function StatsSection() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           <div>
             <Zap className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" aria-hidden="true" />
-            <div className="text-4xl font-bold text-[#D4AF37] mb-2">10x</div>
-            <div className="text-white/70">Productivity Increase</div>
+            <div className="text-4xl font-bold text-[#D4AF37] mb-2">5x</div>
+            <div className="text-white/70">Faster Processes</div>
           </div>
           <div>
             <Target className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" aria-hidden="true" />
-            <div className="text-4xl font-bold text-[#D4AF37] mb-2">85%</div>
-            <div className="text-white/70">Cost Reduction</div>
+            <div className="text-4xl font-bold text-[#D4AF37] mb-2">60%</div>
+            <div className="text-white/70">Time Saved</div>
           </div>
           <div>
             <Rocket className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" aria-hidden="true" />
-            <div className="text-4xl font-bold text-[#D4AF37] mb-2">2 Weeks</div>
-            <div className="text-white/70">Average Deployment</div>
+            <div className="text-4xl font-bold text-[#D4AF37] mb-2">1-2 Weeks</div>
+            <div className="text-white/70">Typical Timeline</div>
           </div>
           <div>
             <BarChart3 className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" aria-hidden="true" />
-            <div className="text-4xl font-bold text-[#D4AF37] mb-2">250%</div>
-            <div className="text-white/70">ROI Average</div>
+            <div className="text-4xl font-bold text-[#D4AF37] mb-2">100%</div>
+            <div className="text-white/70">Client Retention</div>
           </div>
         </div>
       </Card>

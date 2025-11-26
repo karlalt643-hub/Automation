@@ -14,40 +14,40 @@ import {
 
 const services = [
   {
-    icon: Brain,
-    title: 'AI Model Development',
-    description: 'Reduce development time by 60% with custom machine learning models trained on your data. Our AI solutions deliver actionable insights and automation tailored specifically to your business needs.',
-    features: ['Neural Networks', 'Deep Learning', 'NLP Processing']
-  },
-  {
     icon: Workflow,
-    title: 'Process Automation',
-    description: 'Cut operational costs by 70% through end-to-end workflow automation. Eliminate repetitive manual tasks and scale your operations exponentially without adding headcount.',
-    features: ['RPA Integration', 'API Orchestration', 'Smart Workflows']
+    title: 'Workflow Automation',
+    description: 'Connect your apps and automate repetitive tasks using Make.com and n8n. Build powerful workflows that sync data, send notifications, and handle processes without manual intervention.',
+    features: ['Make.com Scenarios', 'n8n Workflows', 'API Integrations']
   },
   {
     icon: Bot,
-    title: 'Intelligent Chatbots',
-    description: 'Achieve 85% query resolution with AI-powered conversational agents. Our chatbots understand context, learn from every interaction, and provide human-like support around the clock.',
-    features: ['24/7 Support', 'Multi-Language', 'Context Aware']
-  },
-  {
-    icon: BarChart3,
-    title: 'Predictive Analytics',
-    description: 'Improve forecast accuracy by 40% using AI-powered data analysis. Stay ahead of market trends, optimize critical decisions, and maintain competitive advantage through intelligent insights.',
-    features: ['Data Mining', 'Forecasting', 'Real-time Insights']
+    title: 'Conversational AI',
+    description: 'Design intelligent chatbots and voice assistants with Voiceflow. Create natural conversation flows that handle customer inquiries, qualify leads, and provide support at scale.',
+    features: ['Voiceflow Design', 'Multi-Channel Bots', 'Intent Recognition']
   },
   {
     icon: Code2,
-    title: 'Custom AI Solutions',
-    description: 'Solve unique challenges with 95% accuracy through bespoke AI systems. We design and build solutions from the ground up to address your specific business requirements.',
-    features: ['Full Stack', 'Cloud Native', 'Scalable Architecture']
+    title: 'Backend Development',
+    description: 'Build secure and scalable backends with Supabase. Set up authentication, databases, real-time subscriptions, and storage solutions that power your automated systems.',
+    features: ['Supabase Setup', 'Database Design', 'Auth & Security']
+  },
+  {
+    icon: BarChart3,
+    title: 'Data Integration',
+    description: 'Sync data across platforms and create unified views of your business. Connect CRMs, spreadsheets, databases, and third-party APIs to keep information flowing smoothly.',
+    features: ['CRM Sync', 'Data Pipelines', 'Report Automation']
+  },
+  {
+    icon: Brain,
+    title: 'Custom Solutions',
+    description: 'Build tailored automation that fits your unique business needs. Combine multiple tools and platforms to create end-to-end systems that solve specific challenges.',
+    features: ['Custom Workflows', 'System Integration', 'Process Optimization']
   },
   {
     icon: Target,
-    title: 'AI Consulting',
-    description: 'Maximize ROI by 250% with strategic AI adoption guidance. Our experts provide implementation roadmaps, technology selection, and comprehensive strategy design tailored to your goals.',
-    features: ['Strategy Design', 'Tech Audits', 'ROI Planning']
+    title: 'Consulting & Training',
+    description: 'Get expert guidance on automation strategy and tool selection. Learn best practices through hands-on training sessions that help your team build and maintain workflows independently.',
+    features: ['Strategy Planning', 'Tool Selection', 'Team Training']
   }
 ];
 
@@ -59,13 +59,13 @@ export function ServicesSection() {
           Our Services
         </Badge>
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">
-          AI-Powered Solutions for
+          Automation Services
           <span className="block text-[#D4AF37]">
-            Every Challenge
+            That Deliver Results
           </span>
         </h2>
         <p className="text-white/70 text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-          From concept to deployment, we deliver AI solutions that transform businesses
+          We build practical automation solutions using proven tools and platforms
         </p>
       </div>
 
